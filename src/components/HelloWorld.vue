@@ -26,23 +26,10 @@
         ></b-form-input>
       </b-form-group>
       <b-button type="submit" variant="primary" v-on:click="onSubmit()">Submit</b-button>
-<!-- <b-card class="mt-3" header="Form Data Result">
-      <pre class="m-0">{{ form }}</pre> -->
-<!-- <b-container fluid class="p-4 bg-dark"  >
-    <b-row>
-      <b-col>
-          <b-img thumbnail fluid :src="getImage()" alt="Image 1" style="width: 300px ;height: 300px"></b-img>
-          <p style="color: white"> Name:  {{ form.name }} </p>
-          <p style="color: white">Caption:  {{ form.caption }}</p> 
-
-      </b-col>
-    </b-row>
-  </b-container> --><!-- 
-    </b-card> -->
     </b-form>    
     <div class="row"  style="margin-top: 30px;">
 
-      <div class="col-4" v-for="(meme,index) in memes[0]" :key="index">
+      <div class="col-4" v-for="(meme,index) in memes[0]" :key="index" style="margin-top: 20px;">
       
     <b-card
       :title="meme.name" 
