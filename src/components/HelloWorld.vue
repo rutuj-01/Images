@@ -22,6 +22,7 @@
         <b-form-input
           id="input-3"
           v-model="form.avatar"
+          placeholder="Enter Meme URL"
           required
         ></b-form-input>
       </b-form-group>
