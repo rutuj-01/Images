@@ -1,4 +1,4 @@
-![ScreenShot](Screenshot (72))
+![ScreenShot](/screenshots/latest.png)
 
 
 # images
