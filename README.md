@@ -1,4 +1,4 @@
-![ScreenShot](C:\Users\sai\Pictures\Screenshots\Screenshot (72))
+![ScreenShot](Screenshot (72))
 
 
 # images
